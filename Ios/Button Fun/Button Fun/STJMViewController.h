@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface STJMViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
+- (IBAction)ButtonPressed:(UIButton *)sender;
 
 @end

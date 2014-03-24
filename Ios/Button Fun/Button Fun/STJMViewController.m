@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)ButtonPressed:(UIButton *)sender {
+    NSString *title = [sender titleForState:UIControlStateNormal];
+    NSString *plainText = [NSString stringWithFormat:@"%@ button pressed.",title];
+    _statusLabel.text = plainText;
+}
 @end
