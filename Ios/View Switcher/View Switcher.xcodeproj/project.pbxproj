@@ -19,6 +19,12 @@
 		22B6EF4918E2EFE70068B5A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B6EF3118E2EFE70068B5A6 /* UIKit.framework */; };
 		22B6EF5118E2EFE70068B5A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22B6EF4F18E2EFE70068B5A6 /* InfoPlist.strings */; };
 		22B6EF5318E2EFE70068B5A6 /* View_SwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B6EF5218E2EFE70068B5A6 /* View_SwitcherTests.m */; };
+		22B6EF5E18E2F0E90068B5A6 /* STJMSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B6EF5D18E2F0E90068B5A6 /* STJMSwitchViewController.m */; };
+		22B6EF6118E2F11B0068B5A6 /* STJMBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B6EF6018E2F11B0068B5A6 /* STJMBlueViewController.m */; };
+		22B6EF6418E2F12B0068B5A6 /* STJMYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B6EF6318E2F12B0068B5A6 /* STJMYellowViewController.m */; };
+		22B6EF6618E2F1ED0068B5A6 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B6EF6518E2F1EC0068B5A6 /* SwitchView.xib */; };
+		22B6EF6818E2F21D0068B5A6 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B6EF6718E2F21D0068B5A6 /* BlueView.xib */; };
+		22B6EF6A18E2F22E0068B5A6 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B6EF6918E2F22E0068B5A6 /* YellowView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,15 @@
 		22B6EF4E18E2EFE70068B5A6 /* View SwitcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View SwitcherTests-Info.plist"; sourceTree = "<group>"; };
 		22B6EF5018E2EFE70068B5A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22B6EF5218E2EFE70068B5A6 /* View_SwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_SwitcherTests.m; sourceTree = "<group>"; };
+		22B6EF5C18E2F0E90068B5A6 /* STJMSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMSwitchViewController.h; sourceTree = "<group>"; };
+		22B6EF5D18E2F0E90068B5A6 /* STJMSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMSwitchViewController.m; sourceTree = "<group>"; };
+		22B6EF5F18E2F11B0068B5A6 /* STJMBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMBlueViewController.h; sourceTree = "<group>"; };
+		22B6EF6018E2F11B0068B5A6 /* STJMBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMBlueViewController.m; sourceTree = "<group>"; };
+		22B6EF6218E2F12B0068B5A6 /* STJMYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMYellowViewController.h; sourceTree = "<group>"; };
+		22B6EF6318E2F12B0068B5A6 /* STJMYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMYellowViewController.m; sourceTree = "<group>"; };
+		22B6EF6518E2F1EC0068B5A6 /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		22B6EF6718E2F21D0068B5A6 /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
+		22B6EF6918E2F22E0068B5A6 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +126,15 @@
 				22B6EF3D18E2EFE70068B5A6 /* STJMAppDelegate.m */,
 				22B6EF3F18E2EFE70068B5A6 /* Images.xcassets */,
 				22B6EF3418E2EFE70068B5A6 /* Supporting Files */,
+				22B6EF5C18E2F0E90068B5A6 /* STJMSwitchViewController.h */,
+				22B6EF5D18E2F0E90068B5A6 /* STJMSwitchViewController.m */,
+				22B6EF5F18E2F11B0068B5A6 /* STJMBlueViewController.h */,
+				22B6EF6018E2F11B0068B5A6 /* STJMBlueViewController.m */,
+				22B6EF6218E2F12B0068B5A6 /* STJMYellowViewController.h */,
+				22B6EF6318E2F12B0068B5A6 /* STJMYellowViewController.m */,
+				22B6EF6518E2F1EC0068B5A6 /* SwitchView.xib */,
+				22B6EF6718E2F21D0068B5A6 /* BlueView.xib */,
+				22B6EF6918E2F22E0068B5A6 /* YellowView.xib */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
@@ -220,7 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B6EF6A18E2F22E0068B5A6 /* YellowView.xib in Resources */,
+				22B6EF6818E2F21D0068B5A6 /* BlueView.xib in Resources */,
 				22B6EF3818E2EFE70068B5A6 /* InfoPlist.strings in Resources */,
+				22B6EF6618E2F1ED0068B5A6 /* SwitchView.xib in Resources */,
 				22B6EF4018E2EFE70068B5A6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B6EF6418E2F12B0068B5A6 /* STJMYellowViewController.m in Sources */,
+				22B6EF6118E2F11B0068B5A6 /* STJMBlueViewController.m in Sources */,
 				22B6EF3E18E2EFE70068B5A6 /* STJMAppDelegate.m in Sources */,
+				22B6EF5E18E2F0E90068B5A6 /* STJMSwitchViewController.m in Sources */,
 				22B6EF3A18E2EFE70068B5A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
