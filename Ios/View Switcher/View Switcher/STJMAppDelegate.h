@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class STJMSwitchViewController;
+
 @interface STJMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) STJMSwitchViewController *switchViewController;
 
 @end

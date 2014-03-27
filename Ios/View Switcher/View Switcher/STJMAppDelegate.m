@@ -8,12 +8,22 @@
 
 #import "STJMAppDelegate.h"
 
+#import "STJMSwitchViewController.h"
+
 @implementation STJMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.switchViewController = [[STJMSwitchViewController alloc]
+                                 initWithNibName:@"SwitchView" bundle:nil];
+    UIView *switchView = self.switchViewController.view;
+    CGRect switchViewFrame = switchView.frame;
+    switchViewFrame.origin.y += [UIApplication sharedApplication].statusBarFrame.size.height;
+    switchView.frame = switchViewFrame;
+    self.window.rootViewController = self.switchViewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
