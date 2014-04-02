@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface STJMViewController : UIViewController
+@interface STJMViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+
+@property (copy, nonatomic)NSArray *dwarves;
 
 @end
