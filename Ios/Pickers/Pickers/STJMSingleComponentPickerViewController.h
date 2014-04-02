@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface STJMSingleComponentPickerViewController : UIViewController
+@interface STJMSingleComponentPickerViewController : UIViewController<UIPickerViewDelegate,UIPickerViewDataSource>
+
+@property (strong, nonatomic) IBOutlet UIPickerView *singlePicker;
+@property (strong, nonatomic) NSArray *characterNames;
+
+-(IBAction)buttonPressed;
 
 @end

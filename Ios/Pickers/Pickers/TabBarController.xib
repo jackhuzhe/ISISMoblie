@@ -30,6 +30,15 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <nil key="simulatedDestinationMetrics"/>
                 </viewController>
+                <viewController nibName="STJMSingleComponentPickerViewController" automaticallyAdjustsScrollViewInsets="NO" id="q0u-kc-Bu4" customClass="STJMSingleComponentPickerViewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="4iq-ka-m99"/>
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <nil key="simulatedDestinationMetrics"/>
+                </viewController>
                 <viewController id="BVp-WH-xh7" customClass="STJMDataPickerViewController">
                     <tabBarItem key="tabBarItem" title="Item 2" id="ayZ-uu-Tay"/>
                     <nil key="simulatedStatusBarMetrics"/>
