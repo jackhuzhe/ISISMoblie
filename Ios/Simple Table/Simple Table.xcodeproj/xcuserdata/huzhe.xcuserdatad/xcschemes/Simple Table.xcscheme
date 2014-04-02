@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "22D3937718EBEB720028DF20"
+               BlueprintIdentifier = "22D393B718EBF4970028DF20"
                BuildableName = "Simple Table.app"
                BlueprintName = "Simple Table"
                ReferencedContainer = "container:Simple Table.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "22D3939218EBEB720028DF20"
+               BlueprintIdentifier = "22D393D818EBF4970028DF20"
                BuildableName = "Simple TableTests.xctest"
                BlueprintName = "Simple TableTests"
                ReferencedContainer = "container:Simple Table.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22D3937718EBEB720028DF20"
+            BlueprintIdentifier = "22D393B718EBF4970028DF20"
             BuildableName = "Simple Table.app"
             BlueprintName = "Simple Table"
             ReferencedContainer = "container:Simple Table.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22D3937718EBEB720028DF20"
+            BlueprintIdentifier = "22D393B718EBF4970028DF20"
             BuildableName = "Simple Table.app"
             BlueprintName = "Simple Table"
             ReferencedContainer = "container:Simple Table.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22D3937718EBEB720028DF20"
+            BlueprintIdentifier = "22D393B718EBF4970028DF20"
             BuildableName = "Simple Table.app"
             BlueprintName = "Simple Table"
             ReferencedContainer = "container:Simple Table.xcodeproj">
