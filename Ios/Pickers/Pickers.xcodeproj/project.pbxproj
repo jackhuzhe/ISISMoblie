@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22B7CC2918E550EB00B6066C /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B7CC2818E550EB00B6066C /* TabBarController.xib */; };
+		22D0A58718E95D2F006BFFB8 /* STJMTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D0A58518E95D2E006BFFB8 /* STJMTestViewController.m */; };
+		22D0A58818E95D2F006BFFB8 /* STJMTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D0A58618E95D2F006BFFB8 /* STJMTestViewController.xib */; };
 		22F10A5818E416DD00F28B6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F10A5718E416DD00F28B6B /* Foundation.framework */; };
 		22F10A5A18E416DD00F28B6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F10A5918E416DD00F28B6B /* CoreGraphics.framework */; };
 		22F10A5C18E416DD00F28B6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F10A5B18E416DD00F28B6B /* UIKit.framework */; };
@@ -19,6 +22,16 @@
 		22F10A7318E416DE00F28B6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F10A5B18E416DD00F28B6B /* UIKit.framework */; };
 		22F10A7B18E416DE00F28B6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22F10A7918E416DE00F28B6B /* InfoPlist.strings */; };
 		22F10A7D18E416DE00F28B6B /* PickersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F10A7C18E416DE00F28B6B /* PickersTests.m */; };
+		22F10A8918E418F100F28B6B /* STJMDataPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F10A8718E418F100F28B6B /* STJMDataPickerViewController.m */; };
+		22F10A8A18E418F100F28B6B /* STJMDataPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F10A8818E418F100F28B6B /* STJMDataPickerViewController.xib */; };
+		22F10A8E18E41A9500F28B6B /* STJMSingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F10A8C18E41A9500F28B6B /* STJMSingleComponentPickerViewController.m */; };
+		22F10A8F18E41A9500F28B6B /* STJMSingleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F10A8D18E41A9500F28B6B /* STJMSingleComponentPickerViewController.xib */; };
+		22F10A9318E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F10A9118E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.m */; };
+		22F10A9418E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F10A9218E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.xib */; };
+		22F10A9818E41B3300F28B6B /* STJMDependentComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F10A9618E41B3300F28B6B /* STJMDependentComponentPickerViewController.m */; };
+		22F10A9918E41B3300F28B6B /* STJMDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F10A9718E41B3300F28B6B /* STJMDependentComponentPickerViewController.xib */; };
+		22F10A9D18E41B6600F28B6B /* STJMCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F10A9B18E41B6600F28B6B /* STJMCustomPickerViewController.m */; };
+		22F10A9E18E41B6600F28B6B /* STJMCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F10A9C18E41B6600F28B6B /* STJMCustomPickerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22B7CC2818E550EB00B6066C /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		22D0A58418E95D2E006BFFB8 /* STJMTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMTestViewController.h; sourceTree = "<group>"; };
+		22D0A58518E95D2E006BFFB8 /* STJMTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMTestViewController.m; sourceTree = "<group>"; };
+		22D0A58618E95D2F006BFFB8 /* STJMTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STJMTestViewController.xib; sourceTree = "<group>"; };
 		22F10A5418E416DD00F28B6B /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F10A5718E416DD00F28B6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22F10A5918E416DD00F28B6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +65,21 @@
 		22F10A7818E416DE00F28B6B /* PickersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickersTests-Info.plist"; sourceTree = "<group>"; };
 		22F10A7A18E416DE00F28B6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22F10A7C18E416DE00F28B6B /* PickersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickersTests.m; sourceTree = "<group>"; };
+		22F10A8618E418F100F28B6B /* STJMDataPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMDataPickerViewController.h; sourceTree = "<group>"; };
+		22F10A8718E418F100F28B6B /* STJMDataPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMDataPickerViewController.m; sourceTree = "<group>"; };
+		22F10A8818E418F100F28B6B /* STJMDataPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STJMDataPickerViewController.xib; sourceTree = "<group>"; };
+		22F10A8B18E41A9500F28B6B /* STJMSingleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMSingleComponentPickerViewController.h; sourceTree = "<group>"; };
+		22F10A8C18E41A9500F28B6B /* STJMSingleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMSingleComponentPickerViewController.m; sourceTree = "<group>"; };
+		22F10A8D18E41A9500F28B6B /* STJMSingleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STJMSingleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		22F10A9018E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMDoubleComponentPickerViewController.h; sourceTree = "<group>"; };
+		22F10A9118E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMDoubleComponentPickerViewController.m; sourceTree = "<group>"; };
+		22F10A9218E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STJMDoubleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		22F10A9518E41B3300F28B6B /* STJMDependentComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMDependentComponentPickerViewController.h; sourceTree = "<group>"; };
+		22F10A9618E41B3300F28B6B /* STJMDependentComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMDependentComponentPickerViewController.m; sourceTree = "<group>"; };
+		22F10A9718E41B3300F28B6B /* STJMDependentComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STJMDependentComponentPickerViewController.xib; sourceTree = "<group>"; };
+		22F10A9A18E41B6600F28B6B /* STJMCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMCustomPickerViewController.h; sourceTree = "<group>"; };
+		22F10A9B18E41B6600F28B6B /* STJMCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMCustomPickerViewController.m; sourceTree = "<group>"; };
+		22F10A9C18E41B6600F28B6B /* STJMCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STJMCustomPickerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +143,25 @@
 				22F10A6718E416DE00F28B6B /* STJMAppDelegate.m */,
 				22F10A6918E416DE00F28B6B /* Images.xcassets */,
 				22F10A5E18E416DD00F28B6B /* Supporting Files */,
+				22F10A8618E418F100F28B6B /* STJMDataPickerViewController.h */,
+				22F10A8718E418F100F28B6B /* STJMDataPickerViewController.m */,
+				22F10A8818E418F100F28B6B /* STJMDataPickerViewController.xib */,
+				22F10A8B18E41A9500F28B6B /* STJMSingleComponentPickerViewController.h */,
+				22F10A8C18E41A9500F28B6B /* STJMSingleComponentPickerViewController.m */,
+				22F10A8D18E41A9500F28B6B /* STJMSingleComponentPickerViewController.xib */,
+				22F10A9018E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.h */,
+				22F10A9118E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.m */,
+				22F10A9218E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.xib */,
+				22F10A9518E41B3300F28B6B /* STJMDependentComponentPickerViewController.h */,
+				22F10A9618E41B3300F28B6B /* STJMDependentComponentPickerViewController.m */,
+				22F10A9718E41B3300F28B6B /* STJMDependentComponentPickerViewController.xib */,
+				22F10A9A18E41B6600F28B6B /* STJMCustomPickerViewController.h */,
+				22F10A9B18E41B6600F28B6B /* STJMCustomPickerViewController.m */,
+				22F10A9C18E41B6600F28B6B /* STJMCustomPickerViewController.xib */,
+				22B7CC2818E550EB00B6066C /* TabBarController.xib */,
+				22D0A58418E95D2E006BFFB8 /* STJMTestViewController.h */,
+				22D0A58518E95D2E006BFFB8 /* STJMTestViewController.m */,
+				22D0A58618E95D2F006BFFB8 /* STJMTestViewController.xib */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -220,8 +271,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D0A58818E95D2F006BFFB8 /* STJMTestViewController.xib in Resources */,
+				22F10A8F18E41A9500F28B6B /* STJMSingleComponentPickerViewController.xib in Resources */,
 				22F10A6218E416DD00F28B6B /* InfoPlist.strings in Resources */,
 				22F10A6A18E416DE00F28B6B /* Images.xcassets in Resources */,
+				22F10A9418E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.xib in Resources */,
+				22F10A9E18E41B6600F28B6B /* STJMCustomPickerViewController.xib in Resources */,
+				22B7CC2918E550EB00B6066C /* TabBarController.xib in Resources */,
+				22F10A9918E41B3300F28B6B /* STJMDependentComponentPickerViewController.xib in Resources */,
+				22F10A8A18E418F100F28B6B /* STJMDataPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D0A58718E95D2F006BFFB8 /* STJMTestViewController.m in Sources */,
+				22F10A9818E41B3300F28B6B /* STJMDependentComponentPickerViewController.m in Sources */,
+				22F10A8E18E41A9500F28B6B /* STJMSingleComponentPickerViewController.m in Sources */,
+				22F10A8918E418F100F28B6B /* STJMDataPickerViewController.m in Sources */,
+				22F10A9D18E41B6600F28B6B /* STJMCustomPickerViewController.m in Sources */,
 				22F10A6818E416DE00F28B6B /* STJMAppDelegate.m in Sources */,
 				22F10A6418E416DE00F28B6B /* main.m in Sources */,
+				22F10A9318E41ADD00F28B6B /* STJMDoubleComponentPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +502,7 @@
 				22F10A8218E416DE00F28B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22F10A8318E416DE00F28B6B /* Build configuration list for PBXNativeTarget "PickersTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +511,7 @@
 				22F10A8518E416DE00F28B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
