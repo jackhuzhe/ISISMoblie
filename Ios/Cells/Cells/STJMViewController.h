@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface STJMViewController : UIViewController
+    <UITableViewDataSource,UITableViewDelegate>
+
+
+@property (copy, nonatomic) NSArray *computers;
 
 @end

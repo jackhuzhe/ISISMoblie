@@ -21,6 +21,8 @@
 		22D3941E18EC07620028DF20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D3940018EC07620028DF20 /* UIKit.framework */; };
 		22D3942618EC07620028DF20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22D3942418EC07620028DF20 /* InfoPlist.strings */; };
 		22D3942818EC07620028DF20 /* CellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D3942718EC07620028DF20 /* CellsTests.m */; };
+		22D3943318EC09B80028DF20 /* STJMNameAndColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D3943218EC09B80028DF20 /* STJMNameAndColorCell.m */; };
+		22D3943518EC28B60028DF20 /* STJMNameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D3943418EC28B60028DF20 /* STJMNameAndColorCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		22D3942318EC07620028DF20 /* CellsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellsTests-Info.plist"; sourceTree = "<group>"; };
 		22D3942518EC07620028DF20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22D3942718EC07620028DF20 /* CellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellsTests.m; sourceTree = "<group>"; };
+		22D3943118EC09B80028DF20 /* STJMNameAndColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMNameAndColorCell.h; sourceTree = "<group>"; };
+		22D3943218EC09B80028DF20 /* STJMNameAndColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMNameAndColorCell.m; sourceTree = "<group>"; };
+		22D3943418EC28B60028DF20 /* STJMNameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STJMNameAndColorCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,9 @@
 				22D3941218EC07620028DF20 /* STJMViewController.m */,
 				22D3941418EC07620028DF20 /* Images.xcassets */,
 				22D3940318EC07620028DF20 /* Supporting Files */,
+				22D3943118EC09B80028DF20 /* STJMNameAndColorCell.h */,
+				22D3943218EC09B80028DF20 /* STJMNameAndColorCell.m */,
+				22D3943418EC28B60028DF20 /* STJMNameAndColorCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -231,6 +239,7 @@
 			files = (
 				22D3941518EC07620028DF20 /* Images.xcassets in Resources */,
 				22D3940718EC07620028DF20 /* InfoPlist.strings in Resources */,
+				22D3943518EC28B60028DF20 /* STJMNameAndColorCell.xib in Resources */,
 				22D3941018EC07620028DF20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +261,7 @@
 			files = (
 				22D3941318EC07620028DF20 /* STJMViewController.m in Sources */,
 				22D3940D18EC07620028DF20 /* STJMAppDelegate.m in Sources */,
+				22D3943318EC09B80028DF20 /* STJMNameAndColorCell.m in Sources */,
 				22D3940918EC07620028DF20 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
