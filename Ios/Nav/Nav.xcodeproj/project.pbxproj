@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2260B40D18F3D04F0035D692 /* STJMSecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260B40C18F3D04F0035D692 /* STJMSecondLevelViewController.m */; };
+		2260B41018F3E13B0035D692 /* STJMDisclosureButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260B40F18F3E13B0035D692 /* STJMDisclosureButtonViewController.m */; };
+		2260B41418F3E2870035D692 /* STJMDisclosureDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260B41218F3E2870035D692 /* STJMDisclosureDetailViewController.m */; };
+		2260B41518F3E2870035D692 /* STJMDisclosureDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2260B41318F3E2870035D692 /* STJMDisclosureDetailViewController.xib */; };
 		22AF64DD18EE8FB900BE9272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AF64DC18EE8FB900BE9272 /* Foundation.framework */; };
 		22AF64DF18EE8FB900BE9272 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AF64DE18EE8FB900BE9272 /* CoreGraphics.framework */; };
 		22AF64E118EE8FB900BE9272 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AF64E018EE8FB900BE9272 /* UIKit.framework */; };
@@ -19,6 +23,7 @@
 		22AF64F818EE8FB900BE9272 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AF64E018EE8FB900BE9272 /* UIKit.framework */; };
 		22AF650018EE8FB900BE9272 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22AF64FE18EE8FB900BE9272 /* InfoPlist.strings */; };
 		22AF650218EE8FB900BE9272 /* NavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AF650118EE8FB900BE9272 /* NavTests.m */; };
+		22AF650D18EE965C00BE9272 /* STJMFirstLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AF650C18EE965C00BE9272 /* STJMFirstLevelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2260B40B18F3D04F0035D692 /* STJMSecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMSecondLevelViewController.h; sourceTree = "<group>"; };
+		2260B40C18F3D04F0035D692 /* STJMSecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMSecondLevelViewController.m; sourceTree = "<group>"; };
+		2260B40E18F3E13B0035D692 /* STJMDisclosureButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMDisclosureButtonViewController.h; sourceTree = "<group>"; };
+		2260B40F18F3E13B0035D692 /* STJMDisclosureButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMDisclosureButtonViewController.m; sourceTree = "<group>"; };
+		2260B41118F3E2870035D692 /* STJMDisclosureDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMDisclosureDetailViewController.h; sourceTree = "<group>"; };
+		2260B41218F3E2870035D692 /* STJMDisclosureDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMDisclosureDetailViewController.m; sourceTree = "<group>"; };
+		2260B41318F3E2870035D692 /* STJMDisclosureDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STJMDisclosureDetailViewController.xib; sourceTree = "<group>"; };
 		22AF64D918EE8FB900BE9272 /* Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AF64DC18EE8FB900BE9272 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22AF64DE18EE8FB900BE9272 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +60,8 @@
 		22AF64FD18EE8FB900BE9272 /* NavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavTests-Info.plist"; sourceTree = "<group>"; };
 		22AF64FF18EE8FB900BE9272 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22AF650118EE8FB900BE9272 /* NavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTests.m; sourceTree = "<group>"; };
+		22AF650B18EE965C00BE9272 /* STJMFirstLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMFirstLevelViewController.h; sourceTree = "<group>"; };
+		22AF650C18EE965C00BE9272 /* STJMFirstLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMFirstLevelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +125,15 @@
 				22AF64EC18EE8FB900BE9272 /* STJMAppDelegate.m */,
 				22AF64EE18EE8FB900BE9272 /* Images.xcassets */,
 				22AF64E318EE8FB900BE9272 /* Supporting Files */,
+				22AF650B18EE965C00BE9272 /* STJMFirstLevelViewController.h */,
+				2260B40B18F3D04F0035D692 /* STJMSecondLevelViewController.h */,
+				2260B40C18F3D04F0035D692 /* STJMSecondLevelViewController.m */,
+				22AF650C18EE965C00BE9272 /* STJMFirstLevelViewController.m */,
+				2260B40E18F3E13B0035D692 /* STJMDisclosureButtonViewController.h */,
+				2260B40F18F3E13B0035D692 /* STJMDisclosureButtonViewController.m */,
+				2260B41118F3E2870035D692 /* STJMDisclosureDetailViewController.h */,
+				2260B41218F3E2870035D692 /* STJMDisclosureDetailViewController.m */,
+				2260B41318F3E2870035D692 /* STJMDisclosureDetailViewController.xib */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -220,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2260B41518F3E2870035D692 /* STJMDisclosureDetailViewController.xib in Resources */,
 				22AF64E718EE8FB900BE9272 /* InfoPlist.strings in Resources */,
 				22AF64EF18EE8FB900BE9272 /* Images.xcassets in Resources */,
 			);
@@ -241,7 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				22AF64ED18EE8FB900BE9272 /* STJMAppDelegate.m in Sources */,
+				2260B41018F3E13B0035D692 /* STJMDisclosureButtonViewController.m in Sources */,
+				2260B41418F3E2870035D692 /* STJMDisclosureDetailViewController.m in Sources */,
+				22AF650D18EE965C00BE9272 /* STJMFirstLevelViewController.m in Sources */,
 				22AF64E918EE8FB900BE9272 /* main.m in Sources */,
+				2260B40D18F3D04F0035D692 /* STJMSecondLevelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +466,7 @@
 				22AF650718EE8FB900BE9272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22AF650818EE8FB900BE9272 /* Build configuration list for PBXNativeTarget "NavTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +475,7 @@
 				22AF650A18EE8FB900BE9272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
