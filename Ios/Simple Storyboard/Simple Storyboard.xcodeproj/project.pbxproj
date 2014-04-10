@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225D871518F6491000B76B1D /* STJMStaticCellsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225D871418F6491000B76B1D /* STJMStaticCellsController.m */; };
 		22C267BF18F5211C00228231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C267BE18F5211C00228231 /* Foundation.framework */; };
 		22C267C118F5211C00228231 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C267C018F5211C00228231 /* CoreGraphics.framework */; };
 		22C267C318F5211C00228231 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C267C218F5211C00228231 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		22C267E018F5211C00228231 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C267C218F5211C00228231 /* UIKit.framework */; };
 		22C267E818F5211C00228231 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22C267E618F5211C00228231 /* InfoPlist.strings */; };
 		22C267EA18F5211C00228231 /* Simple_StoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C267E918F5211C00228231 /* Simple_StoryboardTests.m */; };
+		22C267F518F52B6800228231 /* STJMTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C267F418F52B6800228231 /* STJMTaskListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225D871318F6491000B76B1D /* STJMStaticCellsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMStaticCellsController.h; sourceTree = "<group>"; };
+		225D871418F6491000B76B1D /* STJMStaticCellsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMStaticCellsController.m; sourceTree = "<group>"; };
 		22C267BB18F5211C00228231 /* Simple Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C267BE18F5211C00228231 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22C267C018F5211C00228231 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		22C267E518F5211C00228231 /* Simple StoryboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple StoryboardTests-Info.plist"; sourceTree = "<group>"; };
 		22C267E718F5211C00228231 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22C267E918F5211C00228231 /* Simple_StoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_StoryboardTests.m; sourceTree = "<group>"; };
+		22C267F318F52B6800228231 /* STJMTaskListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMTaskListController.h; sourceTree = "<group>"; };
+		22C267F418F52B6800228231 /* STJMTaskListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMTaskListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				22C267D418F5211C00228231 /* STJMViewController.m */,
 				22C267D618F5211C00228231 /* Images.xcassets */,
 				22C267C518F5211C00228231 /* Supporting Files */,
+				22C267F318F52B6800228231 /* STJMTaskListController.h */,
+				22C267F418F52B6800228231 /* STJMTaskListController.m */,
+				225D871318F6491000B76B1D /* STJMStaticCellsController.h */,
+				225D871418F6491000B76B1D /* STJMStaticCellsController.m */,
 			);
 			path = "Simple Storyboard";
 			sourceTree = "<group>";
@@ -250,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C267F518F52B6800228231 /* STJMTaskListController.m in Sources */,
 				22C267D518F5211C00228231 /* STJMViewController.m in Sources */,
 				22C267CF18F5211C00228231 /* STJMAppDelegate.m in Sources */,
 				22C267CB18F5211C00228231 /* main.m in Sources */,
+				225D871518F6491000B76B1D /* STJMStaticCellsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +469,7 @@
 				22C267EF18F5211C00228231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C267F018F5211C00228231 /* Build configuration list for PBXNativeTarget "Simple StoryboardTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +478,7 @@
 				22C267F218F5211C00228231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
