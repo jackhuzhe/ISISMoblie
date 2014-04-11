@@ -19,6 +19,9 @@
 		22239C9118F6A22E005F27F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22239C7918F6A22E005F27F1 /* UIKit.framework */; };
 		22239C9918F6A22E005F27F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22239C9718F6A22E005F27F1 /* InfoPlist.strings */; };
 		22239C9B18F6A22E005F27F1 /* Seg_NavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22239C9A18F6A22E005F27F1 /* Seg_NavTests.m */; };
+		22239CA518F6A283005F27F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22239CA418F6A283005F27F1 /* MainStoryboard.storyboard */; };
+		22239CA818F6B292005F27F1 /* STJMTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22239CA718F6B292005F27F1 /* STJMTaskListController.m */; };
+		22239CAB18F6B2DB005F27F1 /* STJMTaskDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22239CAA18F6B2DB005F27F1 /* STJMTaskDetailController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		22239C9618F6A22E005F27F1 /* Seg NavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Seg NavTests-Info.plist"; sourceTree = "<group>"; };
 		22239C9818F6A22E005F27F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22239C9A18F6A22E005F27F1 /* Seg_NavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Seg_NavTests.m; sourceTree = "<group>"; };
+		22239CA418F6A283005F27F1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22239CA618F6B292005F27F1 /* STJMTaskListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMTaskListController.h; sourceTree = "<group>"; };
+		22239CA718F6B292005F27F1 /* STJMTaskListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMTaskListController.m; sourceTree = "<group>"; };
+		22239CA918F6B2DB005F27F1 /* STJMTaskDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMTaskDetailController.h; sourceTree = "<group>"; };
+		22239CAA18F6B2DB005F27F1 /* STJMTaskDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMTaskDetailController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +115,15 @@
 		22239C7B18F6A22E005F27F1 /* Seg Nav */ = {
 			isa = PBXGroup;
 			children = (
+				22239CA618F6B292005F27F1 /* STJMTaskListController.h */,
+				22239CA718F6B292005F27F1 /* STJMTaskListController.m */,
 				22239C8418F6A22E005F27F1 /* STJMAppDelegate.h */,
 				22239C8518F6A22E005F27F1 /* STJMAppDelegate.m */,
 				22239C8718F6A22E005F27F1 /* Images.xcassets */,
 				22239C7C18F6A22E005F27F1 /* Supporting Files */,
+				22239CA418F6A283005F27F1 /* MainStoryboard.storyboard */,
+				22239CA918F6B2DB005F27F1 /* STJMTaskDetailController.h */,
+				22239CAA18F6B2DB005F27F1 /* STJMTaskDetailController.m */,
 			);
 			path = "Seg Nav";
 			sourceTree = "<group>";
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22239CA518F6A283005F27F1 /* MainStoryboard.storyboard in Resources */,
 				22239C8018F6A22E005F27F1 /* InfoPlist.strings in Resources */,
 				22239C8818F6A22E005F27F1 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				22239C8618F6A22E005F27F1 /* STJMAppDelegate.m in Sources */,
+				22239CAB18F6B2DB005F27F1 /* STJMTaskDetailController.m in Sources */,
+				22239CA818F6B292005F27F1 /* STJMTaskListController.m in Sources */,
 				22239C8218F6A22E005F27F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
