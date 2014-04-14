@@ -14,4 +14,6 @@
 
 @property (strong, nonatomic) STJMDetailViewController *detailViewController;
 
+@property (copy, nonatomic) NSArray *presidents;
+
 @end
