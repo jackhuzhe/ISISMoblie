@@ -8,7 +8,7 @@
 			<key>name</key>
 			<string>George Washington</string>
 			<key>url</key>
-			<string>http://en.wikipedia.org/wiki/George_Washington</string>
+			<string>http://10.1.15.119:8080/seurat-web/login.seam</string>
 		</dict>
 		<dict>
 			<key>name</key>
