@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2209B50318FBA7E4002705A4 /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2209B50218FBA7E4002705A4 /* PresidentList.plist */; };
+		2209B50618FBE0FD002705A4 /* STJMLanguageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2209B50518FBE0FD002705A4 /* STJMLanguageListController.m */; };
 		220B012A18F7D654004CCB7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220B012918F7D654004CCB7F /* Foundation.framework */; };
 		220B012C18F7D654004CCB7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220B012B18F7D654004CCB7F /* CoreGraphics.framework */; };
 		220B012E18F7D654004CCB7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220B012D18F7D654004CCB7F /* UIKit.framework */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2209B50218FBA7E4002705A4 /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PresidentList.plist; sourceTree = "<group>"; };
+		2209B50418FBE0FC002705A4 /* STJMLanguageListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMLanguageListController.h; sourceTree = "<group>"; };
+		2209B50518FBE0FD002705A4 /* STJMLanguageListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMLanguageListController.m; sourceTree = "<group>"; };
 		220B012618F7D654004CCB7F /* Presidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Presidents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		220B012918F7D654004CCB7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		220B012B18F7D654004CCB7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +129,8 @@
 				220B014218F7D654004CCB7F /* STJMDetailViewController.m */,
 				220B014418F7D654004CCB7F /* Images.xcassets */,
 				220B013018F7D654004CCB7F /* Supporting Files */,
+				2209B50418FBE0FC002705A4 /* STJMLanguageListController.h */,
+				2209B50518FBE0FD002705A4 /* STJMLanguageListController.m */,
 			);
 			path = Presidents;
 			sourceTree = "<group>";
@@ -131,6 +138,7 @@
 		220B013018F7D654004CCB7F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2209B50218FBA7E4002705A4 /* PresidentList.plist */,
 				220B013118F7D654004CCB7F /* Presidents-Info.plist */,
 				220B013218F7D654004CCB7F /* InfoPlist.strings */,
 				220B013518F7D654004CCB7F /* main.m */,
@@ -237,6 +245,7 @@
 				220B014518F7D654004CCB7F /* Images.xcassets in Resources */,
 				220B013418F7D654004CCB7F /* InfoPlist.strings in Resources */,
 				220B013D18F7D654004CCB7F /* Main.storyboard in Resources */,
+				2209B50318FBA7E4002705A4 /* PresidentList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				220B014018F7D654004CCB7F /* STJMMasterViewController.m in Sources */,
+				2209B50618FBE0FD002705A4 /* STJMLanguageListController.m in Sources */,
 				220B014318F7D654004CCB7F /* STJMDetailViewController.m in Sources */,
 				220B013A18F7D654004CCB7F /* STJMAppDelegate.m in Sources */,
 				220B013618F7D654004CCB7F /* main.m in Sources */,
@@ -465,6 +475,7 @@
 				220B015D18F7D654004CCB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		220B015E18F7D654004CCB7F /* Build configuration list for PBXNativeTarget "PresidentsTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +484,7 @@
 				220B016018F7D654004CCB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
