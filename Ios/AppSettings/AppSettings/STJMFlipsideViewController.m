@@ -1,8 +1,8 @@
 //
 //  STJMFlipsideViewController.m
-//  AppSetting
+//  AppSettings
 //
-//  Created by Hu Zhe on 14-4-15.
+//  Created by Hu Zhe on 14-4-16.
 //  Copyright (c) 2014年 Hu Zhe. All rights reserved.
 //
 
