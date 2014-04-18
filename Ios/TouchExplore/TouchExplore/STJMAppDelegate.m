@@ -1,26 +1,18 @@
 //
 //  STJMAppDelegate.m
-//  AppSettings
+//  TouchExplore
 //
-//  Created by Hu Zhe on 14-4-16.
+//  Created by Hu Zhe on 14-4-18.
 //  Copyright (c) 2014年 Hu Zhe. All rights reserved.
 //
 
 #import "STJMAppDelegate.h"
-
-#import "STJMMainViewController.h"
 
 @implementation STJMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    NSDictionary *defaults = @{
-                               kWarpDriveKey: @YES,
-                               kWarpFactorKdy:@5,
-                               kFavoriteSinKey:@"Greed"
-                               };
-    [[NSUserDefaults standardUserDefaults] registerDefaults:defaults];
     return YES;
 }
 							
