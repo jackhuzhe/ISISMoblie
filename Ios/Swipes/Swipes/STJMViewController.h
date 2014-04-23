@@ -10,4 +10,6 @@
 
 @interface STJMViewController : UIViewController
 
+@property (weak, nonatomic)IBOutlet UILabel *label;
+@property (nonatomic) CGPoint gestureStartPoint;
 @end
