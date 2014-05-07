@@ -7,6 +7,9 @@
 //
 
 #import "STJMJobController.h"
+#import "STJMJob.h"
+#import "SBJson.h"
+
 
 @interface STJMJobController ()
 
@@ -90,11 +93,43 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     
-    NSString *msg = _bspCodeLabel.text;
+    NSString *msg = self.queryJobs.jobName;
     UIViewController *destination = segue.destinationViewController;
     if ([destination respondsToSelector:@selector(setData:)]) {
         [destination setValue:msg forKey:@"data"];
     }
+}
+
+- (STJMJob *)queryJobs{
+    NSString *url = @"http://10.1.39.84:8080/seurat-web/jersey/job/list?id=&bspCode=HK&status=ABORTED";
+    STJMJob *job = [STJMJob new];
+    
+    NSMutableURLRequest *request = [NSMutableURLRequest new];
+    [request setURL:[NSURL URLWithString:url]];
+    [request setHTTPMethod:@"GET"];
+    
+    
+    NSHTTPURLResponse* response;
+    NSData* data = [NSURLConnection sendSynchronousRequest:request
+                                         returningResponse:&response error:nil];
+    
+    NSString* strRet = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    
+    SBJsonParser * parser = [[SBJsonParser alloc] init];
+    NSLog(@"%@",strRet);
+    NSError * error = nil;
+    
+    NSMutableDictionary *root = [[NSMutableDictionary alloc] initWithDictionary:[parser objectWithString:strRet error:&error]];
+
+    
+    //注意转换代码
+    NSMutableArray * jobList = [root objectForKey:@"jobList"];
+    for(NSMutableDictionary * element  in jobList)
+    {
+        NSLog(@"%@",[[element objectForKey:@"name"] description]);
+    }
+    
+    return job;
 }
 
 @end
