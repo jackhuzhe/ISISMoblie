@@ -8,7 +8,7 @@
 
 #import "STJMJobController.h"
 #import "STJMJob.h"
-#import "SBJson.h"
+#import "SBJson4.h"
 
 
 @interface STJMJobController ()
@@ -113,21 +113,35 @@
     NSData* data = [NSURLConnection sendSynchronousRequest:request
                                          returningResponse:&response error:nil];
     
+    data = [@"{\"jobList\":[{\"id\":1924747188,\"status\":\"ABORTED\",\"name\":\"GHOT_D_Agent\",\"type\":\"Generate HOT\"}],\"success\":true}" dataUsingEncoding:NSUTF8StringEncoding];
+    
     NSString* strRet = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     
-    SBJsonParser * parser = [[SBJsonParser alloc] init];
+    SBJson4ValueBlock block = ^(id v, BOOL *stop) {
+        NSLog(@"Found: %@", @([v isKindOfClass:[NSArray class]]));
+        
+        NSMutableDictionary *root = v;
+        
+        
+        //注意转换代码
+        NSMutableArray * jobList = [root objectForKey:@"jobList"];
+        for(NSMutableDictionary * element  in jobList)
+        {
+            NSLog(@"%@",[[element objectForKey:@"name"] description]);
+            job.jobName = [[element objectForKey:@"name"] description];
+        }
+    };
+    SBJson4ErrorBlock eh = ^(NSError* err) {
+        NSLog(@"OOPS: %@", err);
+    };
+    
+    id parser = [SBJson4Parser parserWithBlock:block allowMultiRoot:YES unwrapRootArray:NO errorHandler:eh];
+    
+    
+    [parser parse:data];
     NSLog(@"%@",strRet);
     NSError * error = nil;
-    
-    NSMutableDictionary *root = [[NSMutableDictionary alloc] initWithDictionary:[parser objectWithString:strRet error:&error]];
 
-    
-    //注意转换代码
-    NSMutableArray * jobList = [root objectForKey:@"jobList"];
-    for(NSMutableDictionary * element  in jobList)
-    {
-        NSLog(@"%@",[[element objectForKey:@"name"] description]);
-    }
     
     return job;
 }
