@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22085BC0191CAEB50024BC73 /* STJMJobListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22085BBF191CAEB50024BC73 /* STJMJobListController.m */; };
 		2236A9001907675E00458100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2236A8FF1907675E00458100 /* Foundation.framework */; };
 		2236A9021907675E00458100 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2236A9011907675E00458100 /* CoreGraphics.framework */; };
 		2236A9041907675E00458100 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2236A9031907675E00458100 /* UIKit.framework */; };
@@ -42,6 +41,7 @@
 		22BBF90C191B2AB600B2E731 /* AppledocSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22BBF788191B2AB500B2E731 /* AppledocSettings.plist */; };
 		22BBF90D191B2AB600B2E731 /* RegenerateApiDocumentation in Resources */ = {isa = PBXBuildFile; fileRef = 22BBF78A191B2AB500B2E731 /* RegenerateApiDocumentation */; };
 		22BBF90E191B2AB600B2E731 /* RegenerateCredits in Resources */ = {isa = PBXBuildFile; fileRef = 22BBF78B191B2AB500B2E731 /* RegenerateCredits */; };
+		22BD751E192E048F00B73971 /* STJMJobListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BD751D192E048F00B73971 /* STJMJobListController.m */; };
 		22DD79FE191B6BC600956AE5 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 22DD783A191B6BC500956AE5 /* .gitattributes */; };
 		22DD79FF191B6BC600956AE5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 22DD783B191B6BC500956AE5 /* .gitignore */; };
 		22DD7A00191B6BC600956AE5 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DD783E191B6BC500956AE5 /* NSObject+SBJson.m */; };
@@ -108,7 +108,6 @@
 
 /* Begin PBXFileReference section */
 		22085BBE191CAEB50024BC73 /* STJMJobListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMJobListController.h; sourceTree = "<group>"; };
-		22085BBF191CAEB50024BC73 /* STJMJobListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMJobListController.m; sourceTree = "<group>"; };
 		2236A8FC1907675E00458100 /* ISIS2 Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISIS2 Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2236A8FF1907675E00458100 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2236A9011907675E00458100 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -166,6 +165,7 @@
 		22BBF788191B2AB500B2E731 /* AppledocSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
 		22BBF78A191B2AB500B2E731 /* RegenerateApiDocumentation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RegenerateApiDocumentation; sourceTree = "<group>"; };
 		22BBF78B191B2AB500B2E731 /* RegenerateCredits */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RegenerateCredits; sourceTree = "<group>"; };
+		22BD751D192E048F00B73971 /* STJMJobListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMJobListController.m; sourceTree = "<group>"; };
 		22DD783A191B6BC500956AE5 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 		22DD783B191B6BC500956AE5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		22DD783D191B6BC500956AE5 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
@@ -284,8 +284,8 @@
 				22FB78031917BA920068227B /* STJMJobDetailController.m */,
 				2243BF481918CB92008CDB67 /* STJMJob.h */,
 				2243BF491918CB93008CDB67 /* STJMJob.m */,
+				22BD751D192E048F00B73971 /* STJMJobListController.m */,
 				22085BBE191CAEB50024BC73 /* STJMJobListController.h */,
-				22085BBF191CAEB50024BC73 /* STJMJobListController.m */,
 				22869725192B3DEF00AF0AB6 /* STJMStatusPickerView.h */,
 				22869726192B3DEF00AF0AB6 /* STJMStatusPickerView.m */,
 				2286972C192B3E5B00AF0AB6 /* STJMStatusPickerView.xib */,
@@ -737,6 +737,7 @@
 				22DD7A08191B6BC600956AE5 /* SBJsonStreamWriterState.m in Sources */,
 				22DD7A06191B6BC600956AE5 /* SBJsonStreamWriter.m in Sources */,
 				22BBF907191B2AB600B2E731 /* SBJson4StreamParserState.m in Sources */,
+				22BD751E192E048F00B73971 /* STJMJobListController.m in Sources */,
 				2243BF4A1918CB93008CDB67 /* STJMJob.m in Sources */,
 				22DD7A03191B6BC600956AE5 /* SBJsonStreamParserAccumulator.m in Sources */,
 				22FB78041917BA920068227B /* STJMJobDetailController.m in Sources */,
@@ -757,7 +758,6 @@
 				22BBF90A191B2AB600B2E731 /* SBJson4StreamWriterState.m in Sources */,
 				22DD7A05191B6BC600956AE5 /* SBJsonStreamParserState.m in Sources */,
 				22869727192B3DEF00AF0AB6 /* STJMStatusPickerView.m in Sources */,
-				22085BC0191CAEB50024BC73 /* STJMJobListController.m in Sources */,
 				22BBF909191B2AB600B2E731 /* SBJson4StreamWriter.m in Sources */,
 				2236A9321907E82F00458100 /* STJMJobController.m in Sources */,
 			);
