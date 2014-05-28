@@ -41,6 +41,8 @@
 		22BBF90C191B2AB600B2E731 /* AppledocSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22BBF788191B2AB500B2E731 /* AppledocSettings.plist */; };
 		22BBF90D191B2AB600B2E731 /* RegenerateApiDocumentation in Resources */ = {isa = PBXBuildFile; fileRef = 22BBF78A191B2AB500B2E731 /* RegenerateApiDocumentation */; };
 		22BBF90E191B2AB600B2E731 /* RegenerateCredits in Resources */ = {isa = PBXBuildFile; fileRef = 22BBF78B191B2AB500B2E731 /* RegenerateCredits */; };
+		22BCFB1519349264009EF315 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BCFB1419349264009EF315 /* SWRevealViewController.m */; };
+		22BCFB1C1934B86E009EF315 /* STJMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BCFB1B1934B86E009EF315 /* STJMMainViewController.m */; };
 		22BD751E192E048F00B73971 /* STJMJobListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BD751D192E048F00B73971 /* STJMJobListController.m */; };
 		22DD79FE191B6BC600956AE5 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 22DD783A191B6BC500956AE5 /* .gitattributes */; };
 		22DD79FF191B6BC600956AE5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 22DD783B191B6BC500956AE5 /* .gitignore */; };
@@ -165,6 +167,10 @@
 		22BBF788191B2AB500B2E731 /* AppledocSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
 		22BBF78A191B2AB500B2E731 /* RegenerateApiDocumentation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RegenerateApiDocumentation; sourceTree = "<group>"; };
 		22BBF78B191B2AB500B2E731 /* RegenerateCredits */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RegenerateCredits; sourceTree = "<group>"; };
+		22BCFB1319349264009EF315 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		22BCFB1419349264009EF315 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		22BCFB1A1934B86E009EF315 /* STJMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJMMainViewController.h; sourceTree = "<group>"; };
+		22BCFB1B1934B86E009EF315 /* STJMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMMainViewController.m; sourceTree = "<group>"; };
 		22BD751D192E048F00B73971 /* STJMJobListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJMJobListController.m; sourceTree = "<group>"; };
 		22DD783A191B6BC500956AE5 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 		22DD783B191B6BC500956AE5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -271,6 +277,10 @@
 		2236A9051907675E00458100 /* ISIS2 Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				22BCFB1219349264009EF315 /* Library */,
+				22E4AB9B19330C40009A74F6 /* ControllerLayer */,
+				22E4AB9A19330C21009A74F6 /* ViewLayer */,
+				22E4AB9519330BFD009A74F6 /* ModelLayer */,
 				22DD7839191B6BC500956AE5 /* json-framework-3.2.0 */,
 				22BBF72C191B2AB400B2E731 /* json-framework-4.0.0 */,
 				2236A90E1907675E00458100 /* STJMAppDelegate.h */,
@@ -278,17 +288,6 @@
 				2236A9111907675E00458100 /* Images.xcassets */,
 				2236A9061907675E00458100 /* Supporting Files */,
 				2236A92E1907693800458100 /* ISIS2.storyboard */,
-				2236A9301907E82E00458100 /* STJMJobController.h */,
-				2236A9311907E82E00458100 /* STJMJobController.m */,
-				22FB78021917BA920068227B /* STJMJobDetailController.h */,
-				22FB78031917BA920068227B /* STJMJobDetailController.m */,
-				2243BF481918CB92008CDB67 /* STJMJob.h */,
-				2243BF491918CB93008CDB67 /* STJMJob.m */,
-				22BD751D192E048F00B73971 /* STJMJobListController.m */,
-				22085BBE191CAEB50024BC73 /* STJMJobListController.h */,
-				22869725192B3DEF00AF0AB6 /* STJMStatusPickerView.h */,
-				22869726192B3DEF00AF0AB6 /* STJMStatusPickerView.m */,
-				2286972C192B3E5B00AF0AB6 /* STJMStatusPickerView.xib */,
 			);
 			path = "ISIS2 Mobile";
 			sourceTree = "<group>";
@@ -442,6 +441,15 @@
 			path = scripts;
 			sourceTree = "<group>";
 		};
+		22BCFB1219349264009EF315 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				22BCFB1319349264009EF315 /* SWRevealViewController.h */,
+				22BCFB1419349264009EF315 /* SWRevealViewController.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		22DD7839191B6BC500956AE5 /* json-framework-3.2.0 */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,6 +583,40 @@
 				22DD789E191B6BC600956AE5 /* RegenerateCredits */,
 			);
 			path = scripts;
+			sourceTree = "<group>";
+		};
+		22E4AB9519330BFD009A74F6 /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2243BF481918CB92008CDB67 /* STJMJob.h */,
+				2243BF491918CB93008CDB67 /* STJMJob.m */,
+			);
+			name = ModelLayer;
+			sourceTree = "<group>";
+		};
+		22E4AB9A19330C21009A74F6 /* ViewLayer */ = {
+			isa = PBXGroup;
+			children = (
+				22869725192B3DEF00AF0AB6 /* STJMStatusPickerView.h */,
+				22869726192B3DEF00AF0AB6 /* STJMStatusPickerView.m */,
+				2286972C192B3E5B00AF0AB6 /* STJMStatusPickerView.xib */,
+			);
+			name = ViewLayer;
+			sourceTree = "<group>";
+		};
+		22E4AB9B19330C40009A74F6 /* ControllerLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2236A9301907E82E00458100 /* STJMJobController.h */,
+				2236A9311907E82E00458100 /* STJMJobController.m */,
+				22FB78021917BA920068227B /* STJMJobDetailController.h */,
+				22FB78031917BA920068227B /* STJMJobDetailController.m */,
+				22BD751D192E048F00B73971 /* STJMJobListController.m */,
+				22085BBE191CAEB50024BC73 /* STJMJobListController.h */,
+				22BCFB1A1934B86E009EF315 /* STJMMainViewController.h */,
+				22BCFB1B1934B86E009EF315 /* STJMMainViewController.m */,
+			);
+			name = ControllerLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -735,10 +777,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				22DD7A08191B6BC600956AE5 /* SBJsonStreamWriterState.m in Sources */,
+				22BCFB1C1934B86E009EF315 /* STJMMainViewController.m in Sources */,
 				22DD7A06191B6BC600956AE5 /* SBJsonStreamWriter.m in Sources */,
 				22BBF907191B2AB600B2E731 /* SBJson4StreamParserState.m in Sources */,
 				22BD751E192E048F00B73971 /* STJMJobListController.m in Sources */,
 				2243BF4A1918CB93008CDB67 /* STJMJob.m in Sources */,
+				22BCFB1519349264009EF315 /* SWRevealViewController.m in Sources */,
 				22DD7A03191B6BC600956AE5 /* SBJsonStreamParserAccumulator.m in Sources */,
 				22FB78041917BA920068227B /* STJMJobDetailController.m in Sources */,
 				22BBF90B191B2AB600B2E731 /* SBJson4Writer.m in Sources */,
